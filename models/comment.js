@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const commentSchema = Schema({
     author: String,
-    photoId: Number,
+    photoId: String,
     comment: String,
     datetime: String
 });
